@@ -24,18 +24,19 @@ class Customer
 
 class Program
 {
-    //static void Main(string[] args)
-    //{
-    //    Console.Write("Enter Customer ID: ");
-    //    int id = Convert.ToInt32(Console.ReadLine());
+    static void Main(string[] args)
+    {
+       Console.Write("Enter Customer ID: ");
+       int id = Convert.ToInt32(Console.ReadLine());
 
-    //    Console.Write("Enter Name: ");
-    //    string name = Console.ReadLine();
+       Console.Write("Enter Name: ");
+       string name = Console.ReadLine();
 
-    //    Console.Write("Enter Units Consumed: ");
-    //    int units = Convert.ToInt32(Console.ReadLine());
+       Console.Write("Enter Units Consumed: ");
+       int units = Convert.ToInt32(Console.ReadLine());
 
-    //    Customer customer = new Customer(id, name, units);
-    //    customer.ShowBill();
-    //}
+       Customer customer = new Customer(id, name, units);
+       customer.ShowBill();
+    }
 }
+
